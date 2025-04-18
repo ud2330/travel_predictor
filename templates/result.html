@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Predicted Travel Cost</h2>
+        <p><strong>Kilometers:</strong> {{ km }}</p>
+        <p><strong>Season:</strong> {{ season }}</p>
+        <p><strong>Demand Level:</strong> {{ demand }}</p>
+        <p><strong>Mode of Transport:</strong> {{ mode_of_transport }}</p>
+        <p><strong>Fuel Type:</strong> {{ fuel_type }}</p>
+
+        <h3>Estimated Price: ₹{{ price }}</h3>
+
+        <h4>Explanation of Prediction:</h4>
+        <p>{{ explanation }}</p>
+
+        <a href="/" class="btn">Home</a>
+    </div>
+</body>
+</html>

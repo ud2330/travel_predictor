@@ -1,0 +1,153 @@
+/* General Styles */
+body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(to bottom right, #8e44ad, #d5ccc9);
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    padding: 50px 40px;
+    background-color: rgba(56, 1, 40, 0.15);
+    border-radius: 20px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+    width: 520px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.description {
+    font-size: 20px;
+    color: rgba(82, 32, 89, 0.85);
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.form-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+input[type="number"],
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: 600;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input[type="number"]:focus,
+select:focus {
+    border-color: #8e44ad;
+}
+
+/* Submit Button */
+input[type="submit"].btn {
+    background-color: #cfc7e3;
+    color: #333;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+input[type="submit"].btn:hover {
+    background-color: #b6a3d4;
+    color: #222;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+input[type="submit"].btn:active {
+    background-color: #a28ac3;
+    transform: scale(0.98);
+}
+
+/* Custom Button Class */
+.btn {
+    display: inline-block;
+    background-color: #dcd6e3;
+    color: #222;
+    padding: 14px 33px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+    letter-spacing: 1px;
+}
+
+.btn:hover {
+    background-color: #bbaed1;
+    transform: translateY(-4px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.btn:active {
+    background-color: #a592c0;
+    transform: translateY(2px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 30px 20px;
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    .description {
+        font-size: 18px;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 12px 28px;
+    }
+}

@@ -1,0 +1,27 @@
+kilometers,mode_of_transport,fuel_type,season,demand_level,vehicle_type,day_of_week,time_of_day,weather_condition,peak_season,price
+10,Car,Petrol,Summer,Low,Sedan,Weekday,Morning,Clear,No,280
+25,Bike,Petrol,Winter,Medium,Scooter,Weekend,Afternoon,Snowy,Yes,575
+40,Truck,Diesel,Monsoon,High,Truck,Weekday,Evening,Rainy,No,870
+15,Car,Electric,Autumn,Low,Sedan,Weekend,Morning,Clear,No,320
+60,Bus,Diesel,Summer,High,Bus,Weekday,Afternoon,Clear,Yes,1120
+35,Bike,Petrol,Winter,Medium,Scooter,Weekend,Evening,Rainy,No,710
+20,Truck,Diesel,Monsoon,Low,Truck,Weekday,Morning,Clear,Yes,360
+85,Bus,Diesel,Autumn,High,Bus,Weekend,Afternoon,Rainy,No,1425
+50,Car,Petrol,Summer,Medium,Sedan,Weekday,Evening,Clear,Yes,900
+100,Flight,Jet Fuel,Winter,High,Passenger,Weekend,Morning,Clear,Yes,1650
+70,Bus,Diesel,Monsoon,Medium,Bus,Weekday,Afternoon,Snowy,No,1080
+30,Bike,Electric,Autumn,Low,Scooter,Weekend,Evening,Rainy,Yes,465
+120,Car,Petrol,Summer,High,Sedan,Weekday,Morning,Clear,Yes,1810
+90,Flight,Jet Fuel,Winter,Medium,Passenger,Weekend,Afternoon,Clear,Yes,1350
+55,Truck,Diesel,Monsoon,Low,Truck,Weekday,Morning,Snowy,No,765
+150,Bus,Diesel,Autumn,High,Bus,Weekend,Evening,Clear,Yes,2225
+1000,Flight,Jet Fuel,Summer,Medium,Passenger,Weekday,Morning,Clear,No,13150
+1500,Truck,Diesel,Winter,High,Truck,Weekend,Afternoon,Rainy,Yes,19700
+1200,Car,Petrol,Autumn,Low,Sedan,Weekday,Evening,Clear,No,15675
+1800,Flight,Jet Fuel,Monsoon,High,Passenger,Weekend,Morning,Snowy,Yes,23650
+2000,Truck,Diesel,Winter,Medium,Truck,Weekday,Afternoon,Clear,No,26150
+2500,Car,Petrol,Summer,High,Sedan,Weekend,Evening,Clear,Yes,33000
+3000,Bus,Diesel,Autumn,Medium,Bus,Weekday,Morning,Rainy,No,39825
+3500,Truck,Diesel,Monsoon,Low,Truck,Weekend,Afternoon,Snowy,No,45550
+4000,Flight,Jet Fuel,Summer,High,Passenger,Weekday,Evening,Clear,Yes,52300
+4500,Truck,Diesel,Winter,Low,Truck,Weekend,Morning,Rainy,No,58500

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Enter Travel Details</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Enter Travel Information</h2>
+        <form action="/result" method="post">
+            <label>Kilometers:</label>
+            <input type="number" step="any" name="kilometers" required><br>
+
+            <label>Season:</label>
+            <select name="season" required>
+                <option value="Summer">Summer</option>
+                <option value="Winter">Winter</option>
+                <option value="Monsoon">Monsoon</option>
+                <option value="Autumn">Autumn</option>
+            </select><br>
+
+            <label>Demand Level:</label>
+            <select name="demand" required>
+                <option value="Low">Low</option>
+                <option value="Medium">Medium</option>
+                <option value="High">High</option>
+            </select><br>
+
+            <label>Mode of Transport:</label>
+            <select name="mode_of_transport" required>
+                <option value="Private Car">Private Car</option>
+                <option value="Bus">Bus</option>
+                <option value="Train">Train</option>
+                <option value="Flight">Flight</option>
+            </select><br>
+
+            <label>Fuel Type:</label>
+            <select name="fuel_type" required>
+                <option value="Petrol">Petrol</option>
+                <option value="Diesel">Diesel</option>
+                <option value="Electric">Electric</option>
+            </select><br>
+
+            <input type="submit" value="Predict Cost" class="btn" style="margin-top: 20px;">
+        </form>
+    </div>
+</body>
+</html>
